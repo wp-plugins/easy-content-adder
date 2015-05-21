@@ -26,13 +26,10 @@
 				<hr class="beca_divider" />
 
 				<h4><?php _e('Select which type of pages to display content on.', 'beca_domain' ); ?></h4>
-				<?php 
-					// get all post types that are public
+				<?php // get all post types that are public
 					global $post_types; 
 
-					foreach ( $post_types as $post_type ) { ?>
-
-					   <?php 
+					foreach ( $post_types as $post_type ) { 
 					   // If no post type is selected, set input value to 0
 						if ( ! isset( $beca_options[$post_type] ) )
 							$beca_options[$post_type] = 0;
@@ -44,7 +41,6 @@
 					<br/>
 					<?php }
 				?>
-
 				<hr class="beca_divider" />
 
 				<h4><?php _e('Select whether to add to top or bottom of post/pages. You can also select both to have the content show at the top and bottom.', 'beca_domain' ); ?></h4>
@@ -85,7 +81,6 @@
 
 					wp_editor(  $beca_options['added_content'], $editor_id, $args ); 
 				?>
-
 				<p class="submit">
 					<input type="submit" class="button-primary" vale="<?php _e('Save Options', 'beca_domain');  ?> "/>
 				</p>
@@ -96,20 +91,17 @@
 		<?php 
 		// Outpout HTML
 		echo ob_get_clean();
-
-	}
+		}
 
 	// create options page under settings menu
 	function beca_add_options_link() {
 		add_options_page('Easy Content Adder Options', 'Easy Content Adder', 'manage_options', 'beca-options','beca_options_page' );
 	}
-
 	add_action('admin_menu', 'beca_add_options_link');
 
 	// register options page under settings menu
 	function beca_register_settings(){
 		register_setting('beca_settings_group', 'beca_settings');
 	}
-
 	add_action('admin_init', 'beca_register_settings');
 ?>
