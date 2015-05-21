@@ -1,5 +1,7 @@
 === Easy Content Adder ===
 Contributors: byronj
+Donate link: http://byronj.me/donate
+Tags: content, posts, pages, post types
 Requires at least: 3.5
 Tested up to: 4.2.2
 Stable tag: trunk
