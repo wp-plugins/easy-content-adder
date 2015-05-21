@@ -1,4 +1,4 @@
-== Easy Content Adder ==
+=== Easy Content Adder ===
 Contributors: byronj
 Requires at least: 3.5
 Tested up to: 4.2.2
