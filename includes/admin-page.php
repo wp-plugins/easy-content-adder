@@ -1,8 +1,5 @@
-<?php 
-	
-	// content shown on settings page 
+<?php  // content shown on settings page 
 	function beca_options_page() {
-
 		global $beca_options;
 
 		// start HTML
@@ -115,5 +112,4 @@
 	}
 
 	add_action('admin_init', 'beca_register_settings');
-
 ?>

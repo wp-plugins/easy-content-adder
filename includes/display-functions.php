@@ -1,5 +1,4 @@
 <?php 	 
-
 /****************************
 * Our display functions for outputting info
 ****************************/
