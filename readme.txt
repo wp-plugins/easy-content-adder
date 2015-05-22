@@ -23,8 +23,8 @@ An option is provided that will allow you chose whether the content is displayed
 == Changelog ==
 
 = 1.0.1 =
-Fixed bug causing custom post types to not register. 
-Removed unnecessary white spaces.
+* Fixed bug causing custom post types to not register. 
+* Removed unnecessary white spaces.
 
 = 1.0 =
 Initial version
