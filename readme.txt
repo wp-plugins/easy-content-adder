@@ -19,3 +19,12 @@ An option is provided that will allow you chose whether the content is displayed
 1. Upload the easy-content-adder folder to the /wp-content/plugins/ directory
 2. Activate the Easy Content Adder plugin through the 'Plugins' menu in WordPress
 3. Configure the plugin by going to the Settings > Easy Content Adder link that appears in your admin menu
+
+== Changelog ==
+
+= 1.0.1 =
+Fixed bug causing custom post types to not register. 
+Removed unnecessary white spaces.
+
+= 1.0 =
+Initial version
