@@ -19,7 +19,7 @@ $my_plugin_name = 'Easy Content Adder';
 
 // retrieve our plugin settings from options table
 $beca_options = get_option('beca_settings');
-$post_types = get_post_types(array('public' => true));
+
 
 
 

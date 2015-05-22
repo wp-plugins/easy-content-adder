@@ -6,7 +6,7 @@
 function beca_add_content($content){
 
 	global $beca_options;
-	global $post_types; 
+	$post_types = get_post_types(array('public' => true));
 
 	if ( ! isset( $beca_options['enable'] ) ) {
 			$beca_options['enable'] = 0;

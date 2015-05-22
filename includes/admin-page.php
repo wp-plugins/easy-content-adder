@@ -27,7 +27,7 @@
 
 				<h4><?php _e('Select which type of pages to display content on.', 'beca_domain' ); ?></h4>
 				<?php // get all post types that are public
-					global $post_types; 
+					$post_types = get_post_types(array('public' => true));
 
 					foreach ( $post_types as $post_type ) { 
 					   // If no post type is selected, set input value to 0
