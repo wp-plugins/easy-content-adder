@@ -5,7 +5,7 @@ Plugin URI: http://mightyhut.co
 Description: Easily add content to all of your Pages, Posts, and Custom Post Types.
 Author: Byron Johnson
 Author URI: https://byronj.me
-Version: 1.0
+Version: 1.0.1
 */
 
 
