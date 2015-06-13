@@ -4,7 +4,7 @@ Donate link: http://byronj.me/donate
 Tags: content, posts, pages, post types
 Requires at least: 3.5
 Tested up to: 4.2.2
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,6 +21,9 @@ An option is provided that will allow you chose whether the content is displayed
 3. Configure the plugin by going to the Settings > Easy Content Adder link that appears in your admin menu
 
 == Changelog ==
+
+= 1.0.2 =
+* Added conditionals to ensure the added content does not show on blog feed pages
 
 = 1.0.1 =
 * Fixed bug causing custom post types to not register. 
