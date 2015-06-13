@@ -30,9 +30,11 @@ function beca_add_content($content){
 			$selected_post_types[] =  $post_type;
 		}
 	 }
+
+	 $page_conditionals = is_single() || is_page() || is_attachment();
 	
 	// display content if a post type is chosen and if the enable option is selected
-	if( in_array(get_post_type(), $selected_post_types) && $beca_options['enable'] == 1 ){
+	if( in_array(get_post_type(), $selected_post_types) && $beca_options['enable'] == 1 && $page_conditionals  ){
 
 		// display content at top or bottom of content....or both top and bottom
 		if ($beca_options['bottom'] == 1 && $beca_options['top'] == 0 ){
